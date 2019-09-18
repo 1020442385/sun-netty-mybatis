@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.mapper.AfresultsMapper">
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.Afresults">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="gdsid" jdbcType="VARCHAR" property="gdsid" />
+    <result column="bth" jdbcType="VARCHAR" property="bth" />
+    <result column="sn" jdbcType="VARCHAR" property="sn" />
+    <result column="clong" jdbcType="VARCHAR" property="clong" />
+    <result column="cshort" jdbcType="VARCHAR" property="cshort" />
+  </resultMap>
+</mapper>
